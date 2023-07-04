@@ -21,7 +21,7 @@ def main():
         st.image(r'clubpetro_logo.png', use_column_width=True)
         st.title("Estratégia Comercial")
         # definir o dataframe
-        df = pd.read_csv(r'C:\Users\hirot\Downloads\anplat.csv.csv')
+        df = pd.read_csv(r'anplat.csv.csv')
 
         # Converte as colunas 'Lat' e 'Lon' para números
         df['Lat'] = pd.to_numeric(df['Lat'], errors='coerce')
